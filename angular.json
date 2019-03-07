@@ -15,12 +15,12 @@
           "options": {
             "outputPath": "dist",
             "index": "index.html",
-            "main": "main.ts",
-            "polyfills": "polyfills.ts",
-            "tsConfig": "tsconfig.app.json",
+            "main": "src/main.ts",
+            "polyfills": "src/polyfills.ts",
+            "tsConfig": "src/tsconfig.app.json",
             "assets": [
-              "favicon.ico",
-              "assets",
+              "src/favicon.ico",
+              "src/assets",
               { "glob": "names.json", "input": "./", "output": "./assets/" }
             ],
             "styles": [
